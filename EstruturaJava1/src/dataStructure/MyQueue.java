@@ -44,6 +44,7 @@ public class MyQueue {
         }
         return resultado;
     }
+    
     public int size() {
         Node current = this.first;
         int s = 0;

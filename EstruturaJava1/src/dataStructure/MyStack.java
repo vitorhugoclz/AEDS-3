@@ -40,6 +40,7 @@ public class MyStack {
         int s = 0;
         while(current != null) {
             current = current.next;
+            s++;
         }
         return s;
     }
