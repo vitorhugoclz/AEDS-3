@@ -1,5 +1,8 @@
 package fibonacci;
-
+/**
+ *
+ * @author Vitor
+ */
 public class Fibonacci {
 
     public static long vetor[] = new long[101]; // declaração combinada
@@ -14,8 +17,7 @@ public class Fibonacci {
     }
 
     public static void calculaFib(int n) {
-        c++; //contatora de chamadas
-        //Se n < 3 o Fibonacci de n sera 1, e portanto seqFib na posicao n recebe 1
+        c++;
         if (n < 3) {
             vetor[n] = 1;
         } else {
